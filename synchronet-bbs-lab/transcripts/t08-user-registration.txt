@@ -1,0 +1,195 @@
+$ telnet session: a new caller types New and registers as Alex Rivers
+
+Synchronet BBS for Linux  Version 3.21
+Telnet connection from: 127.0.0.1
+Resolving hostname...
+ √ √ ² ²  ² ² ²'
+_[!_
+∩╗┐
+
+      Synchronet BBS for Linux  Version 3.21  Copyright 2026 Rob Swindell
+          #####                 #####                            #
+          ###   # ## ######### #  ]## #################### ## # ## #
+            #######  ##]# ####### ]##  ##]#### ######## ## #########
+          #*  ### #[ #[##[##[## ##]###### ## #[## ## ##[##]## # ##
+         ]#    ##[]#]# ##]##[##   ]##  ##]####]## ## ##]##]###  ##*##
+          #######  ##[### ##[#####]##  ##[############# #######[#####
+           # ### ##]# ######################################## ### #
+                #####
+
+CLIENT CONN: Raw
+       ADDR: localhost [127.0.0.1]
+       TERM: 80x24 US-ASCII / DUMB
+SERVER NAME: The Reading Room
+       ADDR: mybbs.com
+       NODE: 1 (of 4) - Ubuntu 24.04.5 LTS x86_64
+       TIME: Mon Nov 02 2026 04:02 pm UTC
+       ADMN: Sysop
+
+If you are a new user to the system, type "New" now.
+Otherwise, enter your user name or number now.
+
+Enter User Name or 'New' or 'Guest'
+Login: New
+Starting new user registration ...
+
+[+] Use automatic terminal type detection? Yes
+[+] HIT your BACKSPACE or DELETE-LEFT key: Character 127 (7Fh) received.
+[+] Does your terminal support IBM extended ASCII (CP437)? Yes
+[+] Enter your full name or alias: Alex Rivers
+
+[+] Enter your full real name: Alex Rivers
+
+[+] Enter your handle or call-sign: AlexR
+
+[+] Enter your location (e.g. city, state): Example Town
+[+] Enter your gender (MFX): F
+[+] Enter your birthday (MM/DD/YYYY): 02/02/1995
+[+] Network mail address (Example: user@domain)
+ : alex@example.com
+[+] Forward personal e-mail to network mail address? No
+[+] Is the above information correct? Yes
+
+This BBS is running...
+   _________                   .__                                __
+  /   _____/__.__. ____   ____ |  |_________  ____   ____   _____/  |_
+  \_____  <   |  |/    \_/ ___\|  |  \_  __ \/  _ \ /    \_/ __ \   __\
+  /        \___  |   |  \  \___|   Y  \  | \(  <_> )   |  \  ___/|  |
+ /_______  / ____|___|  /\___  >___|  /__|   \____/|___|  /\___  >__|
+         \/\/         \/     \/     \/                  \/     \/
+
+                     Synchronet BBS for Linux  Version 3.21
+
+                          Copyright 2026 Rob Swindell
+
+              Bulletin Board System Software for the Internet Age
+
+    o UTF-8, CP437/ANSI-BBS and CBM/PETSCII terminal support
+    o Telnet, SSH, and RLogin protocols/clients
+    o SMTP[S]/POP3 inbound and outbound e-mail
+    o FTP[S] with dynamic index files
+    o Network News Transfer Protocol
+    o Web Server with server-side JavaScript and [Fast]CGI
+    o IMAP, Finger, Gopher, NNTP, IRC, and more TCP/IP services
+
+    Versions for Windows and Unix-like OSes (e.g. Linux, FreeBSD, and macOS)
+
+-------------------------------------------------------------------------------
+Remembering these keys will help you enjoy your Synchronet BBS experience:
+-------------------------------------------------------------------------------
+
+At [Hit a key] prompts, you can hit Ctrl-C or 'Q' to stop listing text.
+
+Hitting Down Arrow (or Ctrl-J) at auto-pause prompts will scroll one line at a
+time, while hitting any other key will continue one page at a time.
+
+The global ABORT-operation key sequence is: Ctrl-C.
+
+Other global control-key sequences include: Ctrl-U: List users online
+                                            Ctrl-P: Send a private message
+                                            Ctrl-T: Show time information
+                                            Ctrl-O: Toggle auto-pause Off/On
+
+Use '?' to display help menus, and use 'Q' to quit.
+
+This is The Reading Room located in Example Town
+with your sysop, Sysop here to serve you.
+
+mybbs.com is running Ubuntu 24.04.5 LTS
+and has been online continuously for 22 minutes.
+
+System Totals:
+
+Users    : 2           today: 2
+Logons   : 0           today: 0
+Time Used: 0m          today: 0m
+Messages : 0           today: 0
+E-mail   : 0           today: 0
+Feedback : 0           today: 0
+Files    : 0           today: 0
+            Downloaded today: 0 (0 bytes)
+
+Internet E-mail:
+Your Internet e-mail address here on The Reading Room is:
+<Alex.Rivers@mybbs.com>
+
+If your sysop (Sysop) has enabled the Synchronet mail (SMTP)
+server, you may be able to send and receive Internet e-mail using this address,
+so you may want to make a note of it.
+
+System Policies:
+Maximum inactivity before user account deletion: 180 days
+Maximum interval of user password modifications: unlimited days
+
+Select Command Shell:
+
+*(1) Synchronet (Classic)
+ (2) Synchronet (Novice)
+ (3) WWIV Clone
+ (4) PCBoard Clone
+ (5) Wildcat Clone
+ (6) MajorBBS Clone
+ (7) Renegade Clone
+ (8) Oblivion/2 Clone
+
+Which, (Q)uit or [1]: 1
+Your password is ECQKT3ZO
+
+[+] Enter a different password? Yes
+
+New password (4-40 characters): BOOKMARK-7
+
+Your password is BOOKMARK-7
+
+Don't forget and keep it confidential.
+
+Enter this password for verification: **********
+
+Checking Slots ...User Settings for Alex Rivers #3:
+
+[T] Terminal Mode                : Auto CP437 / DUMB (color) DEL=BS
+[K] Command Shell                : Synchronet (Classic)
+[L] Language                     : English
+[A] Temporary/QWK Archive Type   : zip
+[X] Expert Menu Mode             : Off
+[P] Screen Pause                 : On
+[S] Spinning Cursor              : Pause Prompt Only
+[C] Clear Screen Between Messages: Off
+[N] Ask For New Message/File Scan: On
+[Y] Ask For Your Un-read Msg Scan: Off
+[F] Automatic New File Scan      : On
+[R] Remember Current Sub-board   : On
+[B] Batch Download File Flagging : On
+[M] Forward Mail                 : Off (alex@example.com)
+[Z] Default Download Protocol    : ZMODEM  
+[W] Change Personal Information
+
+Which or [Q] to Quit: Q
+Where did you hear about this BBS?
+
+Logging on to The Reading Room as Alex Rivers ...
+
+           #
+    #      #                                                            ##
+    ##   #####                                                          ##
+    ##     #                                                            ##
+    ##     #                                                            ##
+    ##         ################     #########     #########   #####     ##
+    ##       ###################   ###########   ####################   ##   s
+    ##      ##################### #############  #####################  ##   y
+    ##      ##########################################################  ##   n
+    ##      #########      ############ ######################## #####  ##   c
+    ##       ###########     ########   ####################      ###   ##   h
+    ##        ############   #######    ####################    ##      ##   r
+    ##   #################    ######    ###########################     ##   o
+    ##  ##################    #######   ###### #####################    ##   n
+   ###  #################     ######    ######  ####### ###########    ###   e
+   ###   ###############       ####      ####    ####    #########     ###   t
+   ###                                                                 ###
+   ###                                                            #    ###
+   ###                                                            #    ###
+   ###                                                          #####  ###
+                                                                  #
+                                                                  #
+
+[Hit a key] 

@@ -1,0 +1,47 @@
+$ SBBSCTRL=$PWD/ctrl ./exec/sbbs   (console mode, stdin closed)
+
+Synchronet Console for Linux-x64  Version 3.21e  Copyright 2026 Rob Swindell
+
+Reading /home/hatch/workspace/synchronet-bbs-labwork/sbbs/ctrl/sbbs.ini
+Loading configuration files from /home/hatch/workspace/synchronet-bbs-labwork/sbbs/ctrl
+Current usr ids: ruid - 0, euid - 0, suid - 0
+Current grp ids: rgid - 0, egid - 0, sgid - 0
+The process 101932 was given capabilities =ep cap_net_admin,cap_net_raw,cap_sys_ptrace-ep
+Setting initial privileges
+No password name for: 
+Successfully changed user-id to 
+Setting minimum privileges
+Current usr ids: ruid - 0, euid - 0, suid - 0
+Current grp ids: rgid - 0, egid - 0, sgid - 0
+The process 101932 was given capabilities cap_net_bind_service,cap_sys_resource=ep
+WARNING: No user account specified, running as root!
+11/2 15:39:48 term Synchronet Terminal Server Version 3.21e
+11/2 15:39:48 term Compiled HEAD/d2a6dcb271 Mar 17 2026 09:03 with GCC 13.3.0
+11/2 15:39:48 term Initializing on Mon Nov  2 15:39:48 2026 with options: 2
+11/2 15:39:48 term Loading configuration files from /home/hatch/workspace/synchronet-bbs-labwork/sbbs/ctrl
+11/2 15:39:48 term Verifying/creating data directories
+11/2 15:39:48 term Verifying/creating node directories
+11/2 15:39:48 term Telnet Server listening on socket 127.0.0.1 port 18083
+11/2 15:39:48 evnt BBS Events BBS Events thread started
+11/2 15:39:48 term Node 1 local spy using socket localspy1.sock
+11/2 15:39:48 term Node 2 local spy using socket localspy2.sock
+11/2 15:39:48 term Node 3 local spy using socket localspy3.sock
+11/2 15:39:48 term Node 4 local spy using socket localspy4.sock
+11/2 15:39:48 term Terminal Server thread started for nodes 1 through 4
+11/2 15:39:48 evnt BBS Events New Day and Week and Month - Prev: never
+11/2 15:39:48 evnt BBS Events DAILY: System maintenance begun
+11/2 15:39:48 evnt BBS Events DAILY: Checking for inactive/expired user records...
+11/2 15:39:48 evnt BBS Events DAILY: Purging deleted/expired e-mail
+11/2 15:39:48 evnt BBS Events DAILY: Running system event: ?logonlist -m
+11/2 15:39:48 evnt BBS Events Daily event: '?logonlist -m' returned 0
+11/2 15:39:48 evnt BBS Events DAILY: Running monthly event: /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec/trashman /home/hatch/workspace/synchronet-bbs-labwork/sbbs/text/*.can /home/hatch/workspace/synchronet-bbs-labwork/sbbs/ctrl/spamblock.cfg
+11/2 15:39:48 evnt BBS Events Monthly event: '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec/trashman /home/hatch/workspace/synchronet-bbs-labwork/sbbs/text/*.can /home/hatch/workspace/synchronet-bbs-labwork/sbbs/ctrl/spamblock.cfg' returned 0
+11/2 15:39:48 evnt BBS Events DAILY: System maintenance ended
+11/2 15:39:48 evnt CHKSPACE Running native timed event: ?chkspace.js /home/hatch/workspace/synchronet-bbs-labwork/sbbs/temp/event/ /home/hatch/workspace/synchronet-bbs-labwork/sbbs/data/
+11/2 15:39:48 evnt CHKSPACE Timed event: '?chkspace.js /home/hatch/workspace/synchronet-bbs-labwork/sbbs/temp/event/ /home/hatch/workspace/synchronet-bbs-labwork/sbbs/data/' returned 0
+...
+11/2 15:39:48 term Synchronet Terminal Server Version 3.21e
+11/2 15:39:48 term Telnet Server listening on socket 127.0.0.1 port 18083
+
+$ ss -tlnp | grep 18083
+LISTEN 0      0          127.0.0.1:18083      0.0.0.0:*    users:(("sbbs",pid=101932,fd=3))           

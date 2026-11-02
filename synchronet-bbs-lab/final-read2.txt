@@ -1,0 +1,16 @@
+expect Login:
+send Alex Rivers
+expect Password
+send bookmark-7
+expect Hit a key
+key x
+expect Enter number of bulletin
+key Q
+expect Search all groups for new messages
+key N
+expect Main
+key L
+expect (V)iew
+key V
+sleep 3
+dump

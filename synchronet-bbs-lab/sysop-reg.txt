@@ -1,0 +1,53 @@
+expect Login:
+send New
+expect SY:
+sendenv SYSPASS
+expect terminal type detection
+key Y
+expect BACKSPACE
+keyhex 7f
+expect extended ASCII
+key Y
+expect full name or alias
+send
+expect Continue new user registration
+key Y
+expect full name or alias
+send Sam Operator
+expect full real name
+send Sam Operator
+expect handle or call-sign
+send SamO
+expect location
+send
+expect gender
+key M
+expect birthday
+key 01011990
+send
+expect Network mail address
+send sam@example.com
+expect Forward personal
+key N
+expect information correct
+key Y
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Command Shell
+key 1
+expect different password
+key Y
+expect New password
+send shelf-42
+expect verification
+send shelf-42
+expect Which or
+send Q
+sleep 3
+dump

@@ -1,0 +1,200 @@
+$ telnet session: bulletins and statistics, the sub-board list, and posting in Local General
+
+Synchronet BBS for Linux  Version 3.21
+Telnet connection from: 127.0.0.1
+Resolving hostname...
+ √ √ ² ²  ² ² ²'
+_[!_
+∩╗┐
+
+      Synchronet BBS for Linux  Version 3.21  Copyright 2026 Rob Swindell
+          #####                 #####                            #
+          ###   # ## ######### #  ]## #################### ## # ## #
+            #######  ##]# ####### ]##  ##]#### ######## ## #########
+          #*  ### #[ #[##[##[## ##]###### ## #[## ## ##[##]## # ##
+         ]#    ##[]#]# ##]##[##   ]##  ##]####]## ## ##]##]###  ##*##
+          #######  ##[### ##[#####]##  ##[############# #######[#####
+           # ### ##]# ######################################## ### #
+                #####
+
+CLIENT CONN: Raw
+       ADDR: localhost [127.0.0.1]
+       TERM: 80x24 US-ASCII / DUMB
+SERVER NAME: The Reading Room
+       ADDR: mybbs.com
+       NODE: 1 (of 4) - Ubuntu 24.04.5 LTS x86_64
+       TIME: Mon Nov 02 2026 04:10 pm UTC
+       ADMN: Sysop
+
+If you are a new user to the system, type "New" now.
+Otherwise, enter your user name or number now.
+
+Enter User Name or 'New' or 'Guest'
+Login: Alex Rivers
+Password: **********
+Logging on to The Reading Room as Alex Rivers ...
+
+abs!.-#SS#s+.     .+s\`                      synchronet                 `+.
+  .d$j$SSj$b. ,\$$P   .+s\$`  .,++.  j+.  bbs software .+s%/+.          `$b.
+ ,$$P ,*+`  `4$j$$$+ .+$$$$+  ,d$$$$$ j$$$b.           .d$P++4$$; .-S$$S-. `$$,
+ $$7 \ ,-S$Ss.j$$$` +$$+`$`  .$$+'$$`j$$7`+$b.        d$P' , .-'+$$P+""+4$b.l$l
+ W$:` d$P++4$$$$$` d$+ ,$',d l$' j$' `+7  .`+$\ `$$P d$' +\ d7 d$P' .+, .`4$$$;
+ T$L :$: ., `$$$' d$' j$`j$$ $$  lP d'j$s. `+`4b.`$ j$' j' d7 d$' .d$$$k + Y$$ ./ 4$. $L `4b `2+ j$; .$$ $$T $l  $l ',$$'$\ `/ +$.` $Y  \ j7 j$' .$+'`4$; .$$' l$. 4$.`4b. `4+,+ $$  l$l $$l $l  $$+d$$P,$I   ` +$. `+b ` $; $`  $7 ,+ $',$$P ,$`$, 4$+ `4b. `4$ $l  :$$ `2' ;$  $:`++' l$l  $+  +$.  $  ;$ :$  :$;:$$ l$$$+ ,$$ `$, `4$+ `4b. ` l$.` +$b,.,+\$  $l ,+d :$l  $$b  '$. $  l$ lT  l$ l$' $jP' ,$$' ,$$b. `4$+ `4b. `$$.``+*+',$P: l$ Y$$; $l  $`4$, `$.$  $l $I  $$ 7' '`  .+$P`
+j$+^``'. `4$+ `4b.`4$$s+,,+\$P+l :$, 4$l $$  $; 4$, `$$  $l $l  $$    .,+j$j$s+.$'.-S$  b. `4$, `4b `+*SS*+'. Y+ `$. 4$ $$  $l  $$. '$  l$ $$  $$ \Q$$l    `+4$
+'j$+`$; $$b. `$k  `$b ,.,++ '`  Y+ `$. Y $I  l$ .`$$. '  :$ $l  l$; YjP' j$S-. ' $'  $$ +$$$; l$L  `$b +`.+s#$7` 4b `$+  $l  :$; b`$$  ;l $ $I  :$$.   .d$;`+$.
+ $ j Y$$.`'` ,$$+ ; Y$L ,$$+'`l   +b `$b,$; l $l $.+$L l$ $ $$ : +$$#sS$$P -,`$
+ $ $` 4$$$##$$$7 j$ l$W $$l  d$b+.,dk `$$$ ;$ l$ +' $$ $$ l l$; , `+S+` , T $
+ $ '.  `+*SS\+',j$'.$$+ W$L  `+*SS*+',+`$$ l$ ;$:   $$ $$ l;`$$.`$s,.  .,\',` $
+ $  $\ `/+,,+s$$+'.$$P  `$$.`/+,..,+dP'j\l $$. $l   l$ $$ :$;+$$+`+4$$$/`,d$  $
+ $%s$4$b,_~"''`.+d$$'    `4$+.`'222'`.dP,P `2+ $W  ,$' '^` Yb.`4$$s+,,+%$$'$s%$
+ $$$$ `+*S$|j|$S*+`        `2Sjgggj$+' `+Qy+,P'  $$+gj$QjP+'  `+S$S+'  $$$$
+ ~~~~                                                                      ~~~~
+
+Synchronet BullsEye! Version 3.00 by Rob Swindell
++-------------+
+|  Bulletins  |
++-------------+################################################
+#                                                             #
+# 1 Statistics for The Reading Room                           #
+# 2 New user instructions                                     #
+# 3 About this version of Synchronet BBS Software             #
+###############################################################
+
+Enter number of bulletin or [(Q)uit]: 1
+This is The Reading Room located in Example Town
+with your sysop, Sysop here to serve you.
+
+mybbs.com is running Ubuntu 24.04.5 LTS
+and has been online continuously for 31 minutes.
+
+System Totals:
+
+Users    : 3           today: 3
+Logons   : 9           today: 9
+Time Used: 0m          today: 0m
+Messages : 0           today: 0
+E-mail   : 1           today: 0
+Feedback : 0           today: 0
+Files    : 0           today: 0
+            Downloaded today: 0 (0 bytes)
+
++-------------+
+|  Bulletins  |
++-------------+################################################
+#                                                             #
+# 1 Statistics for The Reading Room                           #
+# 2 New user instructions                                     #
+# 3 About this version of Synchronet BBS Software             #
+###############################################################
+
+Enter number of bulletin or [(Q)uit]: Q
+Last few callers:
+
+1  5      Alex Rivers               Example Town             16:08 Raw        5
+1  6      Alex Rivers               Example Town             16:09 Raw        6
+1  7      Alex Rivers               Example Town             16:09 Raw        7
+1  8      Alex Rivers               Example Town             16:10 Raw        8
+
+System       : The Reading Room
+User #3      : Alex Rivers
+Logons Today : 9     (Max 50)
+Time on Today: 00:02 (Max 08:00)
+Mail Waiting : 0     (Unread 0)
+Sysop is     : Not Available
+
+[+] Search all groups for new messages? No
+ #### # ##  ##]# # #### ## ##  ####### ########################################
+### # # # # # ######## # # # # ### #gj #04:10 pm Nov02'26  The Reading Room    
+  #[### # # #  # #[# #[# # # # #   #   #Last On: Nov02'26  Node    1 Up 31m    
+ ##  #  # #[#### #[  ####  # #[### #   #FirstOn: Nov02'26  Calls   9 of 9      
+                                       ########################################
+ ** Read/Post Messages      ** Message Area Selection   ** Electronic Mail
++--+                       +--+                        +--+
+| N| New message scan      | J| Jump to new msg area   | E| Read/Send E-mail
+| R| Read message prompt   +--+   * List sub-boards    +--+
+| L| List/View messages          /* List groups         ** Other Commands
+| V| View/Vote-in Polls      { }  # Select sub-board   +--+
+| Q| QWK packet transfer     [ ] /# Select group       | D| Default user config
+| P| Post msg /Poll /Meme                              | &| Message scan config
+| A| Post auto-message      ** Go to                   | U| User lists
++--+                       +--+                        | I| Information
+ ** Message Search         | T| File Transfer section  |/A| Change your avatar
++--+                       | G| Text file section      |/L| Node activity
+| F| Find text in messages | C| Chat section           |^K| Ctrl-key Menu
+| S| Scan for msgs to you  | X| External programs      | O| Logoff BBS (or /O)
++--+                       +--+                        +--+ 
+  Anytime | Ctrl-U Who's online Ctrl-P Send private msg Ctrl-C Abort cmd/text 
+
+* Main * 3:59:52 [1] Local [2] General: *
+
+Sub-boards of Local                                                        Msgs
+
+   [1] Sysop Notices                                                          0
+*  [2] General                                                                0
+   [3] Debate                                                                 0
+
+ #### # ##  ##]# # #### ## ##  ####### ########################################
+### # # # # # ######## # # # # ### #gj #04:11 pm Nov02'26  The Reading Room    
+  #[### # # #  # #[# #[# # # # #   #   #Last On: Nov02'26  Node    1 Up 31m    
+ ##  #  # #[#### #[  ####  # #[### #   #FirstOn: Nov02'26  Calls   9 of 9      
+                                       ########################################
+ ** Read/Post Messages      ** Message Area Selection   ** Electronic Mail
++--+                       +--+                        +--+
+| N| New message scan      | J| Jump to new msg area   | E| Read/Send E-mail
+| R| Read message prompt   +--+   * List sub-boards    +--+
+| L| List/View messages          /* List groups         ** Other Commands
+| V| View/Vote-in Polls      { }  # Select sub-board   +--+
+| Q| QWK packet transfer     [ ] /# Select group       | D| Default user config
+| P| Post msg /Poll /Meme                              | &| Message scan config
+| A| Post auto-message      ** Go to                   | U| User lists
++--+                       +--+                        | I| Information
+ ** Message Search         | T| File Transfer section  |/A| Change your avatar
++--+                       | G| Text file section      |/L| Node activity
+| F| Find text in messages | C| Chat section           |^K| Ctrl-key Menu
+| S| Scan for msgs to you  | X| External programs      | O| Logoff BBS (or /O)
++--+                       +--+                        +--+ 
+  Anytime | Ctrl-U Who's online Ctrl-P Send private msg Ctrl-C Abort cmd/text 
+
+* Main * 3:59:49 [1] Local [2] General: 2 #### # ##  ##]# # #### ## ##  ####### ########################################
+### # # # # # ######## # # # # ### #gj #04:11 pm Nov02'26  The Reading Room    
+  #[### # # #  # #[# #[# # # # #   #   #Last On: Nov02'26  Node    1 Up 31m    
+ ##  #  # #[#### #[  ####  # #[### #   #FirstOn: Nov02'26  Calls   9 of 9      
+                                       ########################################
+ ** Read/Post Messages      ** Message Area Selection   ** Electronic Mail
++--+                       +--+                        +--+
+| N| New message scan      | J| Jump to new msg area   | E| Read/Send E-mail
+| R| Read message prompt   +--+   * List sub-boards    +--+
+| L| List/View messages          /* List groups         ** Other Commands
+| V| View/Vote-in Polls      { }  # Select sub-board   +--+
+| Q| QWK packet transfer     [ ] /# Select group       | D| Default user config
+| P| Post msg /Poll /Meme                              | &| Message scan config
+| A| Post auto-message      ** Go to                   | U| User lists
++--+                       +--+                        | I| Information
+ ** Message Search         | T| File Transfer section  |/A| Change your avatar
++--+                       | G| Text file section      |/L| Node activity
+| F| Find text in messages | C| Chat section           |^K| Ctrl-key Menu
+| S| Scan for msgs to you  | X| External programs      | O| Logoff BBS (or /O)
++--+                       +--+                        +--+ 
+  Anytime | Ctrl-U Who's online Ctrl-P Send private msg Ctrl-C Abort cmd/text 
+
+* Main * 3:59:47 [1] Local [2] General: P
+
+Posting on Local General
+
+Subject: First post on the new board
+
+Enter message now (200 lines max). Type /? on a new line for menu.
+----+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+--
+
+Hello from a brand-new account on a brand-new board.
+This post was written in the Local General message base to prove the board
+works end to end.
+/S
+
+Saving ...
+Saved 149 characters (3 lines).
+
+Writing Index ...
+Posted on Local General.
+
+[Hit a key] 

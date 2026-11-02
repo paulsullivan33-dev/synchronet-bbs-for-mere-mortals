@@ -1,0 +1,30 @@
+expect Login:
+send Alex Rivers
+expect Password
+send bookmark-7
+expect Hit a key
+key x
+expect Enter number of bulletin
+key 1
+expect Hit a key
+key x
+expect Enter number of bulletin
+key Q
+expect Search all groups for new messages
+key N
+expect Main
+key *
+expect Sub-boards of Local
+key x
+expect Main
+key 2
+expect Main
+key P
+expect Subject:
+send First post on the new board
+expect Enter message now
+send Hello from a brand-new account on a brand-new board.
+send This post was written in the Local General message base to prove the board works end to end.
+send /S
+sleep 3
+dump

@@ -1,0 +1,127 @@
+$ telnet session (later login): list Local General and view the posted message
+
+Synchronet BBS for Linux  Version 3.21
+Telnet connection from: 127.0.0.1
+Resolving hostname...
+ √ √ ² ²  ² ² ²'
+_[!_
+∩╗┐
+
+      Synchronet BBS for Linux  Version 3.21  Copyright 2026 Rob Swindell
+
+########################## ### #####################]##########################
+############# ###### ## ### ## ###[## ##]###########  ###[##### [ #############
+############[]####]# ## ##]###]################ ]######### ]## ################
+gj############ ### ####### ### ### ## #[## #######]# ##### ]## ###bbs software#
+####################[## #### #]### ## ################ # ######################
+
+CLIENT CONN: Raw
+       ADDR: localhost [127.0.0.1]
+       TERM: 80x24 US-ASCII / DUMB
+SERVER NAME: The Reading Room
+       ADDR: mybbs.com
+       NODE: 1 (of 4) - Ubuntu 24.04.5 LTS x86_64
+       TIME: Mon Nov 02 2026 04:12 pm UTC
+       ADMN: Sysop
+
+If you are a new user to the system, type "New" now.
+Otherwise, enter your user name or number now.
+
+Enter User Name or 'New' or 'Guest'
+Login: Alex Rivers
+Password: **********
+Logging on to The Reading Room as Alex Rivers ...
+
+              # #  #####                # #  #####             # #  #####
+                 ##    #                   ##    #                ##   ##
+          ###############.' ####    # ## ########## '       ## ###########.'
+      ##################.    ##              #  ###.     ###### ###   ]###.
+     ]####        ######      ##      ####   ###         ## ##      #####
+     ####     #### ####      ##   ##  ####   ####        ####   #########*.
+      ####        *###       ###  ##  ###    #######     ####       #####
+       ###################   ###      # ##   ########### ####   #####
+           # #### ########## ###     #####   #####   ########     #*##
+                   ## ##### # ##      ####   ###         ####  #  *#
+       #  #  `        ##  # #  #        ##  #  ##   ##   ### #    `  #  #
+     ## ##   ,        ##### ####      #  #  #####  #     #####  # ,   ## ##
+    #####   : #       ##### ####      #### ######   #    #####   # :   ## ##
+   ]######## .## #########  #####  #######   ####  #    #########.. ########[
+    ########  ############ ###############   ####  ##  # ###################
+     #############################    ##########  ###### ##################
+    ,  ##############    #               #########   # ###### #### ######
+    :, ##### ### #   ###   ###                ####[  #       ### #####   ,
+   ,####          # ###  ###                   ###[  #####*   * #    ####:,
+    ##############  ############     #### #########   ###      ###########*
+            ###        #################  # # ##                   #   5m
+                            #### ##
+
+Synchronet BullsEye! Version 3.00 by Rob Swindell
++-------------+
+|  Bulletins  |
++-------------+################################################
+#                                                             #
+# 1 Statistics for The Reading Room                           #
+# 2 New user instructions                                     #
+# 3 About this version of Synchronet BBS Software             #
+###############################################################
+
+Enter number of bulletin or [(Q)uit]: Q
+Last few callers:
+
+1  7      Alex Rivers               Example Town             16:09 Raw        7
+1  8      Alex Rivers               Example Town             16:10 Raw        8
+1  9      Alex Rivers               Example Town             16:10 Raw        9
+1  10     Alex Rivers               Example Town             16:11 Raw       10
+
+System       : The Reading Room
+User #3      : Alex Rivers
+Logons Today : 11    (Max 50)
+Time on Today: 00:02 (Max 08:00)
+Mail Waiting : 0     (Unread 0)
+Sysop is     : Not Available
+
+[+] Search all groups for new messages? No
+ #### # ##  ##]# # #### ## ##  ####### ########################################
+### # # # # # ######## # # # # ### #gj #04:12 pm Nov02'26  The Reading Room    
+  #[### # # #  # #[# #[# # # # #   #   #Last On: Nov02'26  Node    1 Up 32m    
+ ##  #  # #[#### #[  ####  # #[### #   #FirstOn: Nov02'26  Calls  11 of 11     
+                                       ########################################
+ ** Read/Post Messages      ** Message Area Selection   ** Electronic Mail
++--+                       +--+                        +--+
+| N| New message scan      | J| Jump to new msg area   | E| Read/Send E-mail
+| R| Read message prompt   +--+   * List sub-boards    +--+
+| L| List/View messages          /* List groups         ** Other Commands
+| V| View/Vote-in Polls      { }  # Select sub-board   +--+
+| Q| QWK packet transfer     [ ] /# Select group       | D| Default user config
+| P| Post msg /Poll /Meme                              | &| Message scan config
+| A| Post auto-message      ** Go to                   | U| User lists
++--+                       +--+                        | I| Information
+ ** Message Search         | T| File Transfer section  |/A| Change your avatar
++--+                       | G| Text file section      |/L| Node activity
+| F| Find text in messages | C| Chat section           |^K| Ctrl-key Menu
+| S| Scan for msgs to you  | X| External programs      | O| Logoff BBS (or /O)
++--+                       +--+                        +--+ 
+  Anytime | Ctrl-U Who's online Ctrl-P Send private msg Ctrl-C Abort cmd/text 
+
+* Main * 3:59:55 [1] Local [2] General: L
+
+Loading messages ... Local / General                           [message 1 of 1]
+# From                      Subject                                            
+1 Alex Rivers              <First post on the new board                        
+
+(P)review, (R)eply/(M)ail, (G)oto, (F)ind, fmt:0-2, (Q)uit or [(V)iew] (?)
+Reading message text ...     
+Wrapping lines ...
++------------------------....
+| Subj: First post on the new board
+| To  : All
+| From: Alex Rivers #3
+| Date: Mon Nov 02 2026 04:11 pm UTC (2 minutes ago)
++-----------------------------------------------......
+   ####     ]####[    ]####[    ######   ########  ######## 
+Hello from a brand-new account on a brand-new board.
+This post was written in the Local General message base to prove the board
+works end to end.
+
+                                                       [wrapped lines 1-3 of 3]
+* Reading * Local General (?=Menu) (1 of 1): 

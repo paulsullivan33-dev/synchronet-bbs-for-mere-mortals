@@ -1,0 +1,4 @@
+$ pgrep -x sbbs
+no sbbs process remains
+$ ss -tlnp | grep 18083
+port 18083 is closed - server stopped

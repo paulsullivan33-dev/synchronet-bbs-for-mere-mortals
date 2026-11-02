@@ -1,0 +1,22 @@
+$ edit ctrl/sbbs.ini: loopback bind, telnet 18083, other servers off, SSH/RLogin off
+[Global] :: 	Interface = 127.0.0.1
+[Global] :: 	OutboundInterface =
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	AutoStart = true
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	TelnetInterface =
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	RLoginInterface =
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	SSHInterface =
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	TelnetPort = 18083
+[BBS]	Terminal (Telnet, SSH, RLogin, Raw-TCP) Server :: 	;   TelnetInterface = 71.95.196.34,71.95.196.34:64,71.95.196.34:128
+[Mail]	SMTP(S)/POP3(S) Mail Server :: 	AutoStart = false
+[Mail]	SMTP(S)/POP3(S) Mail Server :: 	Interface = 
+[Mail]	SMTP(S)/POP3(S) Mail Server :: 	POP3Interface = 
+[FTP]	FTP(S) Server :: 	AutoStart = false
+[FTP]	FTP(S) Server :: 	Interface = 
+[Web]	HTTP(S) Server :: 	AutoStart = false
+
+$ edit ctrl/main.ini and msgs.ini tagline: invented identity
+name=The Reading Room
+qwk_id=READROOM
+location=Example Town
+phonefmt=!!!!!!!!!!!!
+operator=Sysop

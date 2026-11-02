@@ -1,0 +1,34 @@
+$ make -f install-sbbs.mk SYMLINK=1 NOCAP=1 TAG=sbbs321e   # stable release, sequential (project does not support parallel builds)
+Mon Nov  2 15:20:41 UTC 2026
+BUILD_EXIT=0
+Mon Nov  2 15:38:58 UTC 2026
+make -C ../../uifc mtlib
+make[3]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/uifc'
+make -C ../../3rdp/build cryptlib
+make[4]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[4]: Nothing to be done for 'cryptlib'.
+make[4]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[3]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/uifc'
+make -C ../../xpdev mtlib
+make[3]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/xpdev'
+make -C ../../3rdp/build cryptlib
+make[4]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[4]: Nothing to be done for 'cryptlib'.
+make[4]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[3]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/xpdev'
+make -C ../../smblib lib
+make[3]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/smblib'
+make[3]: Nothing to be done for 'lib'.
+make[3]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/smblib'
+make -C ../../../3rdp/build cryptlib
+make[3]: Entering directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[3]: Nothing to be done for 'cryptlib'.
+make[3]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/3rdp/build'
+make[2]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/sbbs3/umonitor'
+ln -sf `realpath gcc.linux.x64.exe.release/*` /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec
+ln -sf `realpath gcc.linux.x64.lib.release/*` /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec
+ln -sf `realpath */gcc.linux.x64.exe.release/*` /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec
+make[1]: Leaving directory '/home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/sbbs3'
+ln -sf /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/src/sexpots/gcc.linux.x64.exe.release/sexpots /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec/sexpots
+chown -R : /home/hatch/workspace/synchronet-bbs-labwork/sbbs
+chown -h : /home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec/*

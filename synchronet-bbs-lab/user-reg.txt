@@ -1,0 +1,47 @@
+expect Login:
+send New
+expect terminal type detection
+key Y
+expect BACKSPACE
+keyhex 7f
+expect extended ASCII
+key Y
+expect full name or alias
+send Alex Rivers
+expect full real name
+send Alex Rivers
+expect handle or call-sign
+send AlexR
+expect location
+send Example Town
+expect gender
+key F
+expect birthday
+key 02021995
+send
+expect Network mail address
+send alex@example.com
+expect Forward personal
+key N
+expect information correct
+key Y
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Hit a key
+key x
+expect Command Shell
+key 1
+expect different password
+key Y
+expect New password
+send bookmark-7
+expect verification
+send bookmark-7
+expect Which or
+send Q
+sleep 3
+dump

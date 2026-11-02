@@ -1,0 +1,72 @@
+$ ls of install root
+total 520
+drwxrwx--- 1 root root    152 Nov  2 15:38 .
+drwxrwx--- 1 root root     26 Nov  2 15:20 ..
+-rw-rw---- 1 root root 495752 Nov  2 15:38 build.log
+drwxrwx--- 1 root root   2354 Nov  2 15:38 ctrl
+lrwxrwxrwx 1 root root     59 Nov  2 15:38 docs -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/docs
+lrwxrwxrwx 1 root root     59 Nov  2 15:38 exec -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/exec
+-rw-rw---- 1 root root   6029 Nov  2 15:20 install-sbbs.mk
+drwxrwx--- 1 root root     16 Nov  2 15:38 node1
+drwxrwx--- 1 root root     16 Nov  2 15:38 node2
+drwxrwx--- 1 root root     16 Nov  2 15:38 node3
+drwxrwx--- 1 root root     16 Nov  2 15:38 node4
+drwxrwx--- 1 root root    300 Nov  2 15:23 repo
+lrwxrwxrwx 1 root root     59 Nov  2 15:38 text -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/text
+lrwxrwxrwx 1 root root     58 Nov  2 15:38 web -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/web
+lrwxrwxrwx 1 root root     60 Nov  2 15:38 webv4 -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/webv4
+lrwxrwxrwx 1 root root     59 Nov  2 15:38 xtrn -> /home/hatch/workspace/synchronet-bbs-labwork/sbbs/repo/xtrn
+
+$ ls exec (key programs)
+GNUmakefile
+Makefile
+SlyEdit.js
+activeuserservice.js
+addfiles.js
+agwpe.js
+allusers.js
+ans2asc
+archive.js
+areamgr.hlp
+asc2ans
+asc_handler.js
+automsg.js
+avatar_chooser.js
+avatars.js
+badpasswords.js
+baja
+baja.js
+bajavascript.js
+batchxfer.js
+bench
+binarydecoder.js
+binkit.js
+birthdaylist.js
+broker.js
+bulkmail.js
+bullseye.js
+certtool.js
+chat_sec.js
+chksetup.js
+chksmb
+chkspace.js
+cleanup.js
+deadechoes.js
+default.js
+delfiles.js
+delmsgs.js
+dir_attr.inc
+dorkit
+dosemu.ini
+
+$ file sbbs and version attempt
+/home/hatch/workspace/synchronet-bbs-labwork/sbbs/exec/sbbs: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=f7b5f7432b5b66cdd9f92db75938e8769d1be969, for GNU/Linux 3.2.0, not stripped
+
+Synchronet Console for Linux-x64  Version 3.21e  Copyright 2026 Rob Swindell
+
+Synchronet Terminal Server 3.21e  Compiled HEAD/d2a6dcb271 Mar 17 2026 09:03 with GCC 13.3.0
+Synchronet Mail Server 3.21e  Compiled HEAD/d2a6dcb271 Mar 17 2026 09:03 with GCC 13.3.0
+
+$ git describe in repo
+sbbs321e
+d2a6dcb271 This module name isn't hard-coded any longer
